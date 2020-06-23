@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5F5"
+    android:backgroundTint="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="70dp"
+        android:fontFamily="monospace"
+        android:text="Grade Calculater"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="20dp"
+        android:background="#4BFFEB3B"
+        android:backgroundTint="#DAFFEB3B"
+        android:editable="true"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Quizez  %15"
+        android:inputType="textPersonName"
+        android:shadowColor="#2259FF"
+        android:textColor="#FF9800"
+        android:textColorHint="#FF9800"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="20dp"
+        android:background="#4BFFEB3B"
+        android:backgroundTint="#DAFFEB3B"
+        android:editable="true"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Homework  %25"
+        android:inputType="textPersonName"
+        android:shadowColor="#2259FF"
+        android:textColor="#FF9800"
+        android:textColorHint="#FF9800"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="20dp"
+        android:background="#4BFFEB3B"
+        android:backgroundTint="#DAFFEB3B"
+        android:editable="true"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Finals  %30"
+        android:inputType="textPersonName"
+        android:shadowColor="#2259FF"
+        android:textColor="#FF9800"
+        android:textColorHint="#FF9800"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="124dp"
+
+        android:background="#4BFFEB3B"
+        android:backgroundTint="#DAFFEB3B"
+        android:editable="true"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Mid Terms  %30"
+        android:inputType="textPersonName"
+        android:shadowColor="#2259FF"
+        android:textColor="#FF9800"
+        android:textColorHint="#FF9800"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="110dp"
+        android:background="#FDFFFFFF"
+        android:fontFamily="monospace"
+        android:text="CALCULATE"
+        android:textColor="#000000"
+        android:textSize="26sp"
+android:layout_marginTop="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="500dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/fire2"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
